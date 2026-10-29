@@ -1,0 +1,54 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <meta name="theme-color" content="#14112b">
+  <title>Social Quest</title>
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🎯</text></svg>">
+  <link rel="stylesheet" href="src/css/styles.css">
+</head>
+<body>
+  <main class="app">
+    <header class="app-header">
+      <h1 class="event-name" id="event-name">Social Quest</h1>
+      <p class="event-subtitle" id="event-subtitle"></p>
+    </header>
+
+    <section class="screen" id="screen-welcome">
+      <p class="welcome-text">Esta noche tenés una misión. Descubrila, cumplila y pedí otra cuando quieras.</p>
+      <button class="btn btn-primary" id="btn-discover" type="button">Descubrir desafío</button>
+    </section>
+
+    <section class="screen" id="screen-challenge" hidden>
+      <article class="card" id="challenge-card" aria-live="polite">
+        <div class="card-meta">
+          <span class="tag" id="challenge-category"></span>
+          <span class="tag tag-outline" id="challenge-difficulty"></span>
+        </div>
+        <p class="card-icon" id="challenge-icon" aria-hidden="true"></p>
+        <p class="card-text" id="challenge-text"></p>
+        <p class="card-status" id="challenge-status" hidden>✓ ¡Cumplido!</p>
+      </article>
+      <div class="actions">
+        <button class="btn btn-primary" id="btn-complete" type="button">Cumplido</button>
+        <button class="btn btn-secondary" id="btn-next" type="button">Otro desafío</button>
+      </div>
+    </section>
+
+    <section class="screen" id="screen-error" hidden>
+      <p class="error-text">No pudimos cargar los desafíos.</p>
+      <button class="btn btn-secondary" id="btn-retry" type="button">Reintentar</button>
+    </section>
+
+    <footer class="app-footer">
+      <p class="counter" id="completed-counter" aria-live="polite"></p>
+      <button class="btn-link" id="btn-reset" type="button">Reiniciar progreso</button>
+    </footer>
+  </main>
+
+  <script src="data/event.js"></script>
+  <script src="data/challenges.js"></script>
+  <script src="src/js/app.js"></script>
+</body>
+</html>
