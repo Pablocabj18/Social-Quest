@@ -24,11 +24,17 @@ Usar claves con namespace, por ejemplo:
 
 Validar el contenido leído desde `localStorage`. Si está corrupto, recuperar usando valores vacíos.
 
+Ignorar ids guardados que ya no existan en `data/challenges.js` (puede pasar si se editan los desafíos entre eventos).
+
 ## Selección aleatoria
-1. Obtener desafíos no vistos.
-2. Excluir el desafío actual si es posible.
-3. Elegir uno al azar.
-4. Si no quedan, vaciar historial de vistos y comenzar nuevamente.
+1. Obtener desafíos no vistos (excluyendo siempre el actual).
+2. Si no quedan, vaciar historial de vistos y repetir el paso 1: el actual sigue excluido para no repetirlo inmediatamente.
+3. Elegir uno al azar y agregarlo a vistos.
+4. Si solo existe un desafío, mostrarlo igual (no entrar en bucle).
+
+## Datos
+- Leer `window.SOCIAL_QUEST_EVENT` y `window.SOCIAL_QUEST_CHALLENGES`.
+- Si no existen o la lista está vacía, mostrar el estado de error recuperable, no una pantalla en blanco.
 
 ## DOM
 - Centralizar selectores al inicio.

@@ -1,0 +1,75 @@
+window.SOCIAL_QUEST_CHALLENGES = [
+  // baile
+  { id: "baile-01", text: "Bailá la próxima canción que empiece como si fueras la estrella del videoclip.", category: "baile", difficulty: "facil", icon: "💃" },
+  { id: "baile-02", text: "Inventá un paso de baile y enseñáselo a alguien que no conozcas.", category: "baile", difficulty: "media", icon: "🕺" },
+  { id: "baile-03", text: "Conseguí que tres personas copien tu paso de baile al mismo tiempo.", category: "baile", difficulty: "dificil", icon: "🪩" },
+  { id: "baile-04", text: "Bailá un estribillo entero en cámara lenta.", category: "baile", difficulty: "facil", icon: "🐢" },
+  { id: "baile-05", text: "Bailá una canción completa moviendo solo los brazos.", category: "baile", difficulty: "facil", icon: "🙌" },
+  { id: "baile-06", text: "Armá con dos personas una coreo de tres pasos y háganla en la próxima canción.", category: "baile", difficulty: "dificil", icon: "🎶" },
+  { id: "baile-07", text: "Hacé tu mejor paso de baile de los 2000.", category: "baile", difficulty: "facil", icon: "📼" },
+  { id: "baile-08", text: "Proponé un duelo de baile amistoso a alguien que se anime.", category: "baile", difficulty: "dificil", icon: "⚡" },
+  { id: "baile-09", text: "Formá una ronda de baile de al menos cinco personas.", category: "baile", difficulty: "media", icon: "⭕" },
+  { id: "baile-10", text: "Bailá una canción entera sin parar, pase lo que pase.", category: "baile", difficulty: "media", icon: "🔥" },
+
+  // social
+  { id: "social-01", text: "Conocé a alguien nuevo y descubrí cuál es su canción favorita.", category: "social", difficulty: "facil", icon: "🎧" },
+  { id: "social-02", text: "Encontrá a alguien que cumpla años en el mismo mes que vos.", category: "social", difficulty: "media", icon: "🎂" },
+  { id: "social-03", text: "Hacele un cumplido sincero a alguien sobre su outfit.", category: "social", difficulty: "facil", icon: "✨" },
+  { id: "social-04", text: "Presentá a dos personas que no se conocían.", category: "social", difficulty: "media", icon: "🤝" },
+  { id: "social-05", text: "Aprendete el nombre de cinco personas nuevas.", category: "social", difficulty: "dificil", icon: "🧠" },
+  { id: "social-06", text: "Encontrá a alguien que tenga tu misma comida favorita.", category: "social", difficulty: "media", icon: "🍕" },
+  { id: "social-07", text: "Preguntale a alguien cuál fue el mejor viaje de su vida.", category: "social", difficulty: "facil", icon: "✈️" },
+  { id: "social-08", text: "Encontrá a alguien que haya visto tu serie favorita.", category: "social", difficulty: "media", icon: "📺" },
+  { id: "social-09", text: "Contale un dato curioso a alguien de otra mesa.", category: "social", difficulty: "facil", icon: "💡" },
+  { id: "social-10", text: "Descubrí el talento oculto de alguien que acabás de conocer.", category: "social", difficulty: "media", icon: "🎩" },
+  { id: "social-11", text: "Encontrá a alguien que sepa decir \"hola\" en tres idiomas.", category: "social", difficulty: "media", icon: "🌍" },
+  { id: "social-12", text: "Preguntale a alguien qué canción no puede faltar en una fiesta.", category: "social", difficulty: "facil", icon: "📻" },
+
+  // foto
+  { id: "foto-01", text: "Sacate una foto con tres personas que no estén en tu mesa (si se suman con ganas).", category: "foto", difficulty: "media", icon: "📸" },
+  { id: "foto-02", text: "Sacá una foto grupal donde todos hagan la misma pose.", category: "foto", difficulty: "media", icon: "🤳" },
+  { id: "foto-03", text: "Sacá una foto grupal saltando al mismo tiempo.", category: "foto", difficulty: "dificil", icon: "🦘" },
+  { id: "foto-04", text: "Recreá con tu grupo la portada de un álbum famoso.", category: "foto", difficulty: "dificil", icon: "💿" },
+  { id: "foto-05", text: "Sacate una foto con alguien que tenga ropa del mismo color que vos.", category: "foto", difficulty: "media", icon: "🎨" },
+  { id: "foto-06", text: "Sacá una foto donde aparezcan cinco colores de ropa distintos.", category: "foto", difficulty: "media", icon: "🌈" },
+  { id: "foto-07", text: "Sacate una selfie con alguien nuevo poniendo cara de sorpresa.", category: "foto", difficulty: "facil", icon: "😮" },
+  { id: "foto-08", text: "Sacá una selfie grupal donde nadie mire a la cámara.", category: "foto", difficulty: "media", icon: "🙈" },
+  { id: "foto-09", text: "Sacá la foto más original de la pista desde un ángulo que nadie usaría.", category: "foto", difficulty: "facil", icon: "📐" },
+  { id: "foto-10", text: "Sacá una foto de tu grupo imitando una película famosa.", category: "foto", difficulty: "media", icon: "🎬" },
+
+  // grupo
+  { id: "grupo-01", text: "Junten a seis personas y hagan una ola.", category: "grupo", difficulty: "media", icon: "🌊" },
+  { id: "grupo-02", text: "Ordená a cinco personas por fecha de cumpleaños sin hablar.", category: "grupo", difficulty: "dificil", icon: "🤫" },
+  { id: "grupo-03", text: "Organizá un torneo de piedra, papel o tijera con al menos seis personas.", category: "grupo", difficulty: "dificil", icon: "✂️" },
+  { id: "grupo-04", text: "Inventen entre cuatro un grito de grupo y háganlo juntos.", category: "grupo", difficulty: "media", icon: "📣" },
+  { id: "grupo-05", text: "Junten a cuatro personas y canten un estribillo a coro.", category: "grupo", difficulty: "media", icon: "🎤" },
+  { id: "grupo-06", text: "Formá un grupo de cinco cuyos nombres empiecen con letras distintas.", category: "grupo", difficulty: "media", icon: "🔤" },
+  { id: "grupo-07", text: "Logren un aplauso sincronizado de ocho personas.", category: "grupo", difficulty: "dificil", icon: "👏" },
+  { id: "grupo-08", text: "Formen entre varios las letras de una palabra para una foto (cada uno su letra).", category: "grupo", difficulty: "dificil", icon: "🅰️" },
+  { id: "grupo-09", text: "Junten a tres personas que nunca hayan hablado entre sí y descubran algo en común.", category: "grupo", difficulty: "media", icon: "🔗" },
+  { id: "grupo-10", text: "Armen entre cuatro un nombre de banda y su primer \"hit\".", category: "grupo", difficulty: "facil", icon: "🎸" },
+
+  // creatividad
+  { id: "creatividad-01", text: "Inventá un nombre para esta fiesta y convencé a tres personas de usarlo.", category: "creatividad", difficulty: "dificil", icon: "🏷️" },
+  { id: "creatividad-02", text: "Escribí un mini poema de cuatro líneas sobre la noche y leéselo a alguien.", category: "creatividad", difficulty: "media", icon: "📝" },
+  { id: "creatividad-03", text: "Presentá la próxima canción como si fueras locutor de radio.", category: "creatividad", difficulty: "media", icon: "🎙️" },
+  { id: "creatividad-04", text: "Inventá un apodo épico para tu grupo de amigos.", category: "creatividad", difficulty: "facil", icon: "🦸" },
+  { id: "creatividad-05", text: "Contale un chiste a alguien nuevo y lográ que se ría.", category: "creatividad", difficulty: "media", icon: "😂" },
+  { id: "creatividad-06", text: "Inventá con alguien nuevo un saludo secreto sin tocarse.", category: "creatividad", difficulty: "media", icon: "🤙" },
+  { id: "creatividad-07", text: "Hacé de periodista: entrevistá a alguien 30 segundos sobre la noche.", category: "creatividad", difficulty: "media", icon: "🎥" },
+  { id: "creatividad-08", text: "Describí la fiesta con tres emojis y mostráselos a alguien.", category: "creatividad", difficulty: "facil", icon: "🔮" },
+  { id: "creatividad-09", text: "Narrá en voz baja, como documental de animales, lo que pasa en la pista.", category: "creatividad", difficulty: "facil", icon: "🦁" },
+  { id: "creatividad-10", text: "Inventá un slogan para la fiesta y que alguien lo repita con vos.", category: "creatividad", difficulty: "media", icon: "📢" },
+
+  // random
+  { id: "random-01", text: "Encontrá a alguien con zapatillas del mismo color que las tuyas.", category: "random", difficulty: "facil", icon: "👟" },
+  { id: "random-02", text: "Encontrá a alguien cuyo nombre empiece con la misma letra que el tuyo.", category: "random", difficulty: "facil", icon: "🔠" },
+  { id: "random-03", text: "Lográ que alguien te enseñe algo nuevo en menos de un minuto.", category: "random", difficulty: "media", icon: "⏱️" },
+  { id: "random-04", text: "Descubrí quién fue la primera persona en llegar a la fiesta.", category: "random", difficulty: "media", icon: "🕵️" },
+  { id: "random-05", text: "Agradecele a alguien del staff por la noche.", category: "random", difficulty: "facil", icon: "💛" },
+  { id: "random-06", text: "Adiviná qué canción va a sonar después y contáselo a alguien antes de que empiece.", category: "random", difficulty: "facil", icon: "🎯" },
+  { id: "random-07", text: "Durante 10 minutos, respondé \"¡qué noche!\" cada vez que alguien te salude.", category: "random", difficulty: "media", icon: "🌙" },
+  { id: "random-08", text: "Encontrá a alguien que tenga el mismo número de hermanos que vos.", category: "random", difficulty: "media", icon: "👨‍👩‍👧" },
+  { id: "random-09", text: "Conseguí que tres personas distintas te recomienden una película.", category: "random", difficulty: "media", icon: "🍿" },
+  { id: "random-10", text: "Encontrá a alguien que use la misma app de música que vos.", category: "random", difficulty: "facil", icon: "📱" }
+];

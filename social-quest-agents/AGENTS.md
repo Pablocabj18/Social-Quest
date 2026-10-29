@@ -28,7 +28,7 @@ Construir una mini web mobile-first para una social/fiesta juvenil. Los asistent
 - Mantener archivos pequeños y fáciles de entender.
 - Evitar código duplicado.
 - Mantener nombres de variables y funciones descriptivos.
-- Usar español para textos visibles al usuario.
+- Usar español rioplatense (voseo) para textos visibles al usuario.
 - Usar inglés o español consistentemente en nombres internos; preferencia: inglés para código.
 - No guardar datos personales.
 - No usar APIs externas para la funcionalidad principal.
@@ -41,9 +41,11 @@ Construir una mini web mobile-first para una social/fiesta juvenil. Los asistent
 - La interfaz debe funcionar bien con una sola mano desde el celular.
 
 ## Comportamiento esperado
-- No repetir inmediatamente el mismo desafío.
+- No repetir inmediatamente el mismo desafío, tampoco al reiniciar el ciclo.
 - Evitar repetir desafíos mientras haya otros disponibles.
+- Un desafío salteado con `Otro desafío` cuenta como visto.
 - Si se agotan, reiniciar el ciclo.
+- Mostrar un contador simple de cumplidos (ej. `3 cumplidos`), solo local.
 - Recordar en `localStorage` los desafíos vistos y cumplidos en ese dispositivo.
 - Permitir reiniciar el progreso mediante una acción secundaria discreta.
 
@@ -67,7 +69,8 @@ No explicar detalles técnicos salvo que el usuario los pida.
 - `index.html`
 - `src/css/styles.css`
 - `src/js/app.js`
-- `data/challenges.js` o `data/challenges.json`
+- `data/event.js` con el nombre del evento
+- `data/challenges.js` con los desafíos (no `.json`: con `fetch` falla al abrir el archivo sin servidor)
 - `public/` para imágenes, logos o íconos locales
 - `docs/` para decisiones y contenido del evento
 
